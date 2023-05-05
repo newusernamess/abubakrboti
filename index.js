@@ -6,7 +6,7 @@ dotenv.config()
 
 const bot = new Telegraf(process.env.TOKEN)
 
-const adminsId = [6299965585]
+const adminsId = [6299965585, 5466255061]
 
 const instaDownloader = async (instaUrl) => {
     const options = {
